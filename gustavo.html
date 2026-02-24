@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gustavo | Piltri Gym</title>
+  <meta name="description" content="Perfil de Gustavo en Piltri Gym: fuerza funcional, potencia y rendimiento.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="bg-glow bg-glow--one"></div>
+  <div class="bg-glow bg-glow--two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">PILTRI <span>GYM</span></a>
+    <nav class="site-nav">
+      <a href="index.html">Inicio</a>
+      <a class="is-active" href="gustavo.html">Gustavo</a>
+      <a href="jonatan.html">Jonatan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero hero--trainer">
+      <div class="hero__content">
+        <p class="hero__kicker">COACH PILTRI</p>
+        <h1>GUSTAVO</h1>
+        <p class="hero__subtitle">Entrenamiento funcional, potencia y resistencia para atletas que no frenan.</p>
+      </div>
+      <img class="hero__trainer-photo" src="assets/images/gustavo.svg" alt="Foto de Gustavo">
+    </section>
+
+    <section class="section reveal">
+      <div class="detail-grid">
+        <article class="panel">
+          <h2>Especialidades</h2>
+          <ul class="list">
+            <li>Fuerza funcional</li>
+            <li>HIIT competitivo</li>
+            <li>Preparacion fisica deportiva</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <h2>Experiencia</h2>
+          <p>10+ anos de preparacion fisica en gimnasio y campo. Planificacion de ciclos progresivos y control de performance.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section__head"><h2>Galeria</h2></div>
+      <div class="gallery-grid">
+        <div class="panel gallery-card">Power Lifts</div>
+        <div class="panel gallery-card">Circuitos Metabolicos</div>
+        <div class="panel gallery-card">Sesiones Outdoor</div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="calendario">
+      <div class="section__head">
+        <h2>Calendario de Gustavo</h2>
+      </div>
+      <div class="panel calendar-shell" data-calendar data-default-filter="gustavo">
+        <div class="calendar-topbar">
+          <div class="calendar-nav">
+            <button type="button" class="btn btn--tiny" data-action="prev-week">Semana anterior</button>
+            <p data-week-label></p>
+            <button type="button" class="btn btn--tiny" data-action="next-week">Semana siguiente</button>
+          </div>
+        </div>
+        <div class="calendar-grid" data-calendar-grid></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" data-modal>
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__panel">
+      <button type="button" class="modal__close" data-modal-close aria-label="Cerrar">x</button>
+      <p class="modal__coach" data-modal-coach></p>
+      <h3 data-modal-title></h3>
+      <p data-modal-time></p>
+      <p data-modal-meta></p>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/calendar.js" defer></script>
+</body>
+</html>
